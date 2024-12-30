@@ -23,16 +23,7 @@
     {
       "id": "d8ae",
       "name": "Blooming",
-      "city": "Santa Cruz",
-      "players": [
-        {
-          "id": "156d",
-          "name": "Cesar Menacho",
-          "age": "25",
-          "position": "delantero",
-          "teamId": "d8ae"
-        }
-      ]
+      "city": "Santa Cruz"
     }
   ],
   "players": [
@@ -41,12 +32,7 @@
       "name": "Ramiro Vaca",
       "age": "27",
       "position": "mediocampista",
-      "teamId": "1",
-      "team": {
-        "id": "1",
-        "name": "Bolivar",
-        "city": "La Paz"
-      }
+      "teamId": "1"
     },
     {
       "id": "2",

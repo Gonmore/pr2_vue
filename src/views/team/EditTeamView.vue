@@ -54,6 +54,10 @@ export default {
         // Enviar los datos al servidor
         this.save();
         // Reiniciar el formulario
+        this.form = {
+          name: '',
+          city: '',
+        };
       }
     },
     save() {
