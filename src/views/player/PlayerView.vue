@@ -10,6 +10,12 @@
         <button @click="showModalNuevo = true" class="btn btn-primary">Nuevo</button>
         <button @click="buscar()" class="btn btn-lith" style="float:right">Buscar</button>
         <input type="search" style="float:right" v-model="textToSearch" @search="buscar()" placeholder="Buscar por nombre">
+        <select v-model="ageFilter" @change="filterByAge" >
+            <option value="">Todas las edades</option> 
+            <option value="20">Mayores de 20 años</option> 
+            <option value="25">Mayores de 25 años</option> 
+            <option value="30">Mayores de 30 años</option>
+        </select>
         <table>
             <thead>
                 <tr>
@@ -55,6 +61,7 @@ export default {
             showModalEdit: false,
             itemToEdit: null,
             textToSearch: '',
+            ageFilter: '',
             itemList: []
         }
     },
@@ -111,7 +118,13 @@ export default {
         },
         showToast(message, type) {
             this.$toast.show(message, type);
-        }
+        },
+        filterByAge() { 
+            
+            this.itemList = this.itemList.filter(player => player.age > this.ageFilter); 
+            const pl = this.itemList;
+            console.log(pl)
+        },
     },
     computed: {
         // propiedades computadas que dependen de otras propiedades reactivas

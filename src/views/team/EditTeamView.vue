@@ -56,7 +56,7 @@ export default {
         // Reiniciar el formulario
         this.form = {
           name: '',
-          city: '',
+          city: ''
         };
       }
     },
