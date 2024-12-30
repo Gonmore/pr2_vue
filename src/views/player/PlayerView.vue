@@ -62,7 +62,8 @@ export default {
             itemToEdit: null,
             textToSearch: '',
             ageFilter: '',
-            itemList: []
+            itemList: [],
+            initialItemList: [],
         }
     },
     components: {
@@ -80,7 +81,8 @@ export default {
         if (this.textToSearch) { 
             url += `&name_like=${encodeURIComponent(this.textToSearch)}`; } 
             this.axios.get(url) .then(function (response) { 
-                vm.itemList = response.data; 
+                vm.itemList = response.data;
+                vm.initialItemList = response.data; 
             }) .catch(function (error) 
             { console.error(error); }); 
         },
@@ -120,10 +122,8 @@ export default {
             this.$toast.show(message, type);
         },
         filterByAge() { 
-            
+            this.itemList = this.initialItemList
             this.itemList = this.itemList.filter(player => player.age > this.ageFilter); 
-            const pl = this.itemList;
-            console.log(pl)
         },
     },
     computed: {
