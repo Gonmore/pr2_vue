@@ -1,0 +1,74 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Bolivar",
+      "city": "La Paz",
+      "players": [
+        {
+          "id": "1",
+          "name": "Ramiro Vaca",
+          "age": "26",
+          "position": "mediocampista",
+          "teamId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "The Strongest",
+      "city": "La Paz",
+      "players": [
+        {
+          "id": "3",
+          "name": "Guillermo Vizcarra",
+          "age": "31",
+          "position": "portero",
+          "teamId": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Oriente Petrolero",
+      "city": "Santa Cruz",
+      "players": [
+        {
+          "id": "2",
+          "name": "Gilbert Alvarez",
+          "age": "32",
+          "position": "delantero",
+          "teamId": "3"
+        }
+      ]
+    },
+    {
+      "id": "cd15",
+      "name": "Nacional  Potosi",
+      "city": "Potosi"
+    }
+  ],
+  "players": [
+    {
+      "id": "1",
+      "name": "Ramiro Vaca",
+      "age": "26",
+      "position": "mediocampista",
+      "teamId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Gilbert Alvarez",
+      "age": "32",
+      "position": "delantero",
+      "teamId": "3"
+    },
+    {
+      "id": "3",
+      "name": "Guillermo Vizcarra",
+      "age": "31",
+      "position": "portero",
+      "teamId": "2"
+    }
+  ]
+}

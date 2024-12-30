@@ -1,0 +1,80 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Bolivar",
+      "city": "La Paz"
+    },
+    {
+      "id": "2",
+      "name": "The Strongest",
+      "city": "La Paz"
+    },
+    {
+      "id": "3",
+      "name": "Oriente Petrolero",
+      "city": "Santa Cruz"
+    },
+    {
+      "id": "0d57",
+      "name": "Nacional  Potosi",
+      "city": "Potosi"
+    },
+    {
+      "id": "d8ae",
+      "name": "Blooming",
+      "city": "Santa Cruz",
+      "players": [
+        {
+          "id": "156d",
+          "name": "Cesar Menacho",
+          "age": "25",
+          "position": "delantero",
+          "teamId": "d8ae"
+        }
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "1",
+      "name": "Ramiro Vaca",
+      "age": "27",
+      "position": "mediocampista",
+      "teamId": "1",
+      "team": {
+        "id": "1",
+        "name": "Bolivar",
+        "city": "La Paz"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Gilbert Alvarez",
+      "age": "32",
+      "position": "delantero",
+      "teamId": "3"
+    },
+    {
+      "id": "3",
+      "name": "Guillermo Vizcarra",
+      "age": "31",
+      "position": "portero",
+      "teamId": "2"
+    },
+    {
+      "id": "08c0",
+      "name": "Martin Prost",
+      "age": "36",
+      "position": "delantero",
+      "teamId": "0d57"
+    },
+    {
+      "id": "156d",
+      "name": "Cesar Menacho",
+      "age": "25",
+      "position": "delantero",
+      "teamId": "d8ae"
+    }
+  ]
+}
